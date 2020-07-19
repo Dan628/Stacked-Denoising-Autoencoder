@@ -5,7 +5,7 @@ SDAE is a package containing a stacked denoising autoencoder built on top of the
     
 The SDAE is a seven layer neural network designed to pass  input data through "bottleneck" middle layer before outputing a reconstruction of the input data as a prediction. Noise is introduced during training using dropout, and model is trained on reconstruction loss.
 
-<img src="images/SDAE_img.jpg" width="300">
+<img src="images/SDAE_img.jpg" width="500">
 
 ## Features
 * Adjustable noise levels
