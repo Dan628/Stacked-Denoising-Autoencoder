@@ -1,7 +1,7 @@
 # SDAE
 
 ## Description
-SDAE is a package containing a stacked denoising autoencoder built on top of the Keras that can be used to conveniently perform feature extraction on high dimensional tabular data. 
+SDAE is a package containing a stacked denoising autoencoder built on top of Keras that can be used to quickly and conveniently perform feature extraction on high dimensional tabular data. 
     
 The SDAE is a seven layer stacked denoising autoencoder designed to pass  input data through a "bottleneck" layer before outputing a reconstruction of the input data as a prediction. Noise is introduced during training using dropout, and the model is trained to minimize reconstruction loss.
 
