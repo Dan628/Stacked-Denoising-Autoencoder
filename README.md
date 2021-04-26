@@ -32,7 +32,7 @@ Test data: test_data
 from SDAE import StackedDenoisingAutoencoder
 
 # Instantiate
-SDAE_Model = StackedDenoisingAutoencoder(50, 5, 100, verbose= True)
+SDAE_Model = StackedDenoisingAutoencoder(50, 5, 100, verbose=True)
 
 # Train model
 SDAE_Model.fit(X_train)
